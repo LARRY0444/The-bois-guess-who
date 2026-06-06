@@ -1,0 +1,54 @@
+body{
+
+    background:#202020;
+
+    color:white;
+
+    font-family:Arial;
+
+    text-align:center;
+
+}
+
+#chosen{
+
+    width:250px;
+
+    border:5px solid white;
+
+    border-radius:10px;
+
+}
+
+#grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(6,1fr);
+
+    gap:10px;
+
+    padding:20px;
+
+}
+
+.card{
+
+    cursor:pointer;
+
+}
+
+.card img{
+
+    width:100%;
+
+    border-radius:10px;
+
+    transition:.2s;
+
+}
+
+.greyed{
+
+    filter:grayscale(100%) brightness(50%);
+}
